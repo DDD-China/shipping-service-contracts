@@ -1,6 +1,8 @@
 request:
   method: POST
   url: /shippings
+  headers:
+    Content-Type: application/json
   body: |
     {
       "orderId": 11,
