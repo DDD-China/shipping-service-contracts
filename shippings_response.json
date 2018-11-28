@@ -7,7 +7,7 @@
       {
         "orderId": 1,
         "express": "方通快递",
-        "type": "已经出库",
+        "info": "已经出库",
         "updateAt": 1234567
       }
     ]
