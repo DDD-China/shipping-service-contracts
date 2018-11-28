@@ -1,0 +1,20 @@
+[
+  {
+    "goodsId": "g001",
+    "warehouse": "烟台1号库房",
+    "address": "北京市东城区A123号",
+    "posted": 1429718400000
+  },
+  {
+    "goodsId": "g002",
+    "warehouse": "江西2号库",
+    "address": "北京市海淀区西二旗32号",
+    "posted": 1431360000000
+  },
+  {
+    "goodsId": "g003",
+    "warehouse": "北京北七家",
+    "address": "北京朝阳大悦城3楼231号",
+    "posted": 1430064000000
+  }
+]
