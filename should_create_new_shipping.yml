@@ -9,14 +9,18 @@ request:
       "quantity": 10,
       "address": "北京国际会议中心"
     }
+  matchers:
+    body:
+    - path: $.orderId
+      type: by_regex
+      value: "[0-9]+"
 response:
   status: 201
   headers:
     Content-Type: application/json;charset=UTF-8
-  body: |
-    {
-      "orderId": 11,
-      "quantity": 10,
-      "address": "北京国际会议中心"
-    }
+  body:
+    orderId: 11
+    quantity: 10
+    address: "北京国际会议中心"
+
     

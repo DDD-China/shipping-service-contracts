@@ -6,7 +6,7 @@ import org.springframework.cloud.contract.spec.Contract
         method GET()
         urlPath("/shippings") {
             queryParameters {
-                parameter 'orderId': value(consumer(matching("[0-9]+")), producer(1))
+                parameter 'orderId': $(c(matching("[0-9]+")), p(1))
             }
         }
       }
