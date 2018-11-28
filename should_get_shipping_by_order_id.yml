@@ -3,11 +3,6 @@ request:
   url: /shippings
   queryParameters:
     orderId: 1
-  matchers:
-    queryParameters
-      - key: orderId
-        type: by_regex
-        predefined: number
 response:
   status: 200
   bodyFromFile: shippings_response.json

@@ -7,8 +7,8 @@ response:
     Content-Type: application/json;charset=UTF-8
   body: |
     {
-      orderId: 11,
-      quantity: 10,
-      address: "北京国际会议中心"
+      "orderId": 11,
+      "quantity": 10,
+      "address": "北京国际会议中心"
     }
     
