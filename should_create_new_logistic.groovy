@@ -5,6 +5,9 @@ import org.springframework.cloud.contract.spec.Contract
             request {
                 method POST()
                 url($(c("/shippings/${regex(number())}/logistics"), p("/shippings/1/logistics")))
+                headers {
+                    contentType(applicationJson())
+                }
                 body("""
                     {
                         "orderId": 1,
@@ -16,9 +19,6 @@ import org.springframework.cloud.contract.spec.Contract
             }
             response {
                 status 201
-                headers {
-                    contentType(applicationJson())
-                }
             }
         }
 
