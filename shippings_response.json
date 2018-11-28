@@ -1,0 +1,21 @@
+[
+  {
+    "orderId": 1,
+    "quantity": 10,
+    "address": "北京国际会议中心308",
+    "logistics": [
+      {
+        "orderId": 1,
+        "express": "方通快递",
+        "type": "已经出库",
+        "updateAt": 1234567
+      },
+      {
+        "orderId": 1,
+        "express": "方通快递",
+        "type": "已经运至北二环",
+        "updateAt": 1234567
+      }
+    ]
+  }
+]
