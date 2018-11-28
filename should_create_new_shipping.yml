@@ -1,6 +1,12 @@
 request:
   method: POST
   url: /shippings
+  body: |
+    {
+      "orderId": 11,
+      "quantity": 10,
+      "address": "北京国际会议中心"
+    }
 response:
   status: 201
   headers:
