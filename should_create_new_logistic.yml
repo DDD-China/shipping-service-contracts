@@ -10,6 +10,9 @@ request:
       "info": "已经出库",
       "updateAt": 1234567
     }
+  matchers:
+    url:
+      regex: /shippings/\\d*/logistics
 response:
   status: 201
     
