@@ -1,0 +1,36 @@
+request:
+  method: GET
+  url: /shippings
+  queryParameters:
+    orderId: 1
+  matchers:
+    queryParameters
+      - key: orderId
+        type: by_regex
+        predefined: number
+response:
+  status: 200
+  body: |
+    [
+      {
+        orderId: 1,
+        quantity: 10,
+        address: "北京国际会议中心",
+        logistics: [
+          {
+            orderId: 1,
+            express: "方通快递",
+            type: "已经出库",
+            updateAt: 1234567
+          },
+          {
+            orderId: 1,
+            express: "方通快递",
+            type: "已经运至北二环",
+            updateAt: 1234567
+          }
+        ]
+      }
+    ]
+  headers:
+    Content-Type: application/json;charset=UTF-8

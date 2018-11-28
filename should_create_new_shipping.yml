@@ -1,0 +1,14 @@
+request:
+  method: POST
+  url: /shippings
+response:
+  status: 201
+  headers:
+    Content-Type: application/json;charset=UTF-8
+  body: |
+    {
+      orderId: 11,
+      quantity: 10,
+      address: "北京国际会议中心"
+    }
+    
