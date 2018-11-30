@@ -7,8 +7,7 @@ request:
     {
       "orderId": 11,
       "express": "圆通",
-      "info": "出库",
-      "updateAt": "123131"
+      "info": "出库"
     }
   matchers:
     body:
